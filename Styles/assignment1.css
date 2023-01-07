@@ -1,11 +1,188 @@
-*{
+* {
     margin: 0;
 }
 
-.banner{
+section {
+    margin-top: 160px
+}
+
+.btn-primary {
+    background-color: white;
+    color: #005FAC;
+    padding: 10px 30px;
+    height: 55px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+/* Banner Section */
+
+.header {
     background-image: url(../Images/banner3.png);
-    background-repeat: no-repeat;
     height: 800px;
     width: 1600px;
 }
 
+.banner {
+    padding-top: 200px;
+    padding-bottom: 300px;
+    padding-left: 800px;
+    padding-right: 200px;
+    text-align: right;
+}
+
+.banner-header {
+    color: white;
+    font-weight: 700;
+    font-size: 65px;
+    padding-bottom: 30px;
+}
+
+.banner-para {
+    color: white;
+    font-size: 16px;
+    padding-bottom: 30px;
+}
+
+/* Failure Section */
+
+.previous-year {
+    display: flex;
+    padding: 0px 250px;
+
+}
+
+.failure-section {
+    text-align: left;
+    padding-top: 200px;
+    padding-left: 100px;
+}
+
+.failure-header {
+    color: #151414;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.failure-para {
+    color: #444343;
+    margin-top: 30px;
+    font-size: 16px;
+}
+
+/* My Plans Section  */
+
+.myplans {
+    padding: 0 200px;
+    text-align: center;
+}
+
+.myplans-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    padding: 50px 0;
+}
+
+.myplans-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.plan-title{
+    color:#151414;
+    font-weight: 700;
+    font-size: 30px;
+}
+.plan-para{
+    color: #737272;
+    font-size: 25px;
+    font-weight: 500;
+
+}
+
+/* Positive Mind Section */
+
+.positive-section{
+    background-image: url(../Images/watch.png);
+    background-repeat: no-repeat;
+    height: 300px;
+    margin: 0px 200px;
+    margin-top: 130px;
+    border-radius: 10px;
+}
+.positive-mind{
+    background-image: url(../Images/gradient1.png);
+    background-repeat: no-repeat;
+    height: 300px;
+    padding-top: 100px;
+    padding-left: 60px ;
+    padding-bottom: 40px;
+    border-radius: 10px;
+
+}
+
+.positive-speech{
+    color: white;
+    font-weight: 700;
+    font-size: 40px;
+    padding-right: 600px;
+    padding-bottom: 10px;
+}
+
+/* Footer Section */
+
+.future{
+    display: flex;
+    background: #151414;
+    padding: 100px 200px;
+}
+
+
+.future-title{
+    color: white;
+    padding: 30px 0;
+    text-align: left;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.future-para{
+    color: white;
+    padding: 10px 0;
+    padding-right: 400px;
+    text-align: left;
+    font-size: 16px;
+}
+
+.icons{
+    height: 40px;
+    padding-top: 10px;
+}
+
+
+.subscribe-title{
+    color: white;
+    padding: 30px 0;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.subscribe input{
+    background: #151414;
+    color: white;
+    width: 150%;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.subscribe .btn-primary{
+    background-color: #005FAC;
+    color: white;
+    width: 100%;
+    margin-top: 10px;
+}
