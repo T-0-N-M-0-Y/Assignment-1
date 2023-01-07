@@ -3,7 +3,7 @@
 }
 
 section {
-    margin-top: 160px
+    margin-top: 100px
 }
 
 .btn-primary {
@@ -56,8 +56,6 @@ section {
 
 .failure-section {
     text-align: left;
-    padding-top: 200px;
-    padding-left: 100px;
 }
 
 .failure-header {
@@ -70,6 +68,10 @@ section {
     color: #444343;
     margin-top: 30px;
     font-size: 16px;
+}
+
+.icon-color{
+   color: #16D887
 }
 
 /* My Plans Section  */
