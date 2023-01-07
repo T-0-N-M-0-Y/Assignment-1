@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+}
+
+.banner{
+    background-image: url(../Images/banner3.png);
+    background-repeat: no-repeat;
+    height: 800px;
+    width: 1600px;
+}
+
